@@ -1,0 +1,16 @@
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+dataset/
+*.pth
+*.pt
+
+.ipynb_checkpoints/
+
+.vscode/
+.env
+
+.DS_Store
+Thumbs.db
