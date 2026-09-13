@@ -1,0 +1,4 @@
+import { Bell, ChevronRight, ShieldCheck } from 'lucide-react'
+import { useLocation } from 'react-router-dom'
+const names = { '/': 'Dashboard', '/clinical-data': 'Clinical data', '/image-upload': 'Fundus image upload', '/review': 'Review analysis', '/analysis': 'AI analysis', '/results': 'Results', '/history': 'Demo history', '/about': 'About prototype' }
+export default function Header() { const location = useLocation(); return <header className="header"><div className="breadcrumbs"><span>RetinaView</span><ChevronRight size={15}/><strong>{names[location.pathname]}</strong></div><div className="header-actions"><span className="secure"><ShieldCheck size={16}/> Prototype environment</span><button className="icon-button" aria-label="Notifications"><Bell size={19}/></button><span className="avatar">DR</span></div></header> }

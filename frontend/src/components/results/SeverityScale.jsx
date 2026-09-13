@@ -1,0 +1,2 @@
+import { severityLabels } from '../../services/mockData'
+export default function SeverityScale({ selected = 2 }) { return <div className="severity"><div className="severity-heading"><h3>DR severity scale</h3><span>Mock result: stage {selected}</span></div><div className="scale-bar">{severityLabels.map((label,index)=><div className={index === selected ? 'selected' : ''} key={label}><i></i><span>{index}</span></div>)}</div><div className="scale-labels">{severityLabels.map(label=><small key={label}>{label}</small>)}</div></div> }

@@ -1,0 +1,1 @@
+export default function ConfidenceIndicator({ value }) { return <div className="confidence"><div className="confidence-ring" style={{ '--progress': `${value * 3.6}deg` }}><strong>{value}%</strong><span>confidence</span></div><p>Mock class confidence<br/><small>Demo data — not a diagnostic certainty.</small></p></div> }
