@@ -1,0 +1,30 @@
+DIABETIC RETINOPATHY MODEL EVALUATION REPORT
+============================================================
+
+Model: EfficientNet-B3
+Test Dataset: D:\DiabeticRetinopathy\dataset\splits\test_split.csv
+Number of Test Images: 367
+Device: cuda
+
+Test Accuracy: 79.02%
+
+Classification Report:
+                  precision    recall  f1-score   support
+
+           No DR     0.9568    0.9779    0.9672       181
+            Mild     0.5152    0.4595    0.4857        37
+        Moderate     0.6693    0.8500    0.7489       100
+          Severe     0.2222    0.1053    0.1429        19
+Proliferative DR     0.6923    0.3000    0.4186        30
+
+        accuracy                         0.7902       367
+       macro avg     0.6111    0.5385    0.5527       367
+    weighted avg     0.7743    0.7902    0.7717       367
+
+
+Confusion Matrix:
+[[177   3   1   0   0]
+ [  7  17  13   0   0]
+ [  0  10  85   4   1]
+ [  0   1  13   2   3]
+ [  1   2  15   3   9]]

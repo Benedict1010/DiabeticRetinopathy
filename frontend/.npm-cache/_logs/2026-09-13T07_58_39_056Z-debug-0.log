@@ -1,0 +1,448 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.8.1
+2 info using node@v20.16.0
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:D:\DiabeticRetinopathy\frontend\.npmrc
+5 silly config load:file:C:\Users\91828\.npmrc
+6 silly config load:file:C:\Users\91828\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install
+8 verbose argv "install" "--cache" ".npm-cache" "--loglevel" "error"
+9 verbose logfile logs-max:10 dir:D:\DiabeticRetinopathy\frontend\.npm-cache\_logs\2026-09-13T07_58_39_056Z-
+10 verbose logfile D:\DiabeticRetinopathy\frontend\.npm-cache\_logs\2026-09-13T07_58_39_056Z-debug-0.log
+11 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+12 silly logfile done cleaning log files
+13 silly idealTree buildDeps
+14 silly reify moves {}
+15 silly audit bulk request {
+15 silly audit   '@babel/code-frame': [ '7.29.7' ],
+15 silly audit   '@babel/compat-data': [ '7.29.7' ],
+15 silly audit   '@babel/core': [ '7.29.7' ],
+15 silly audit   '@babel/generator': [ '7.29.8' ],
+15 silly audit   '@babel/helper-compilation-targets': [ '7.29.7' ],
+15 silly audit   '@babel/helper-globals': [ '7.29.7' ],
+15 silly audit   '@babel/helper-module-imports': [ '7.29.7' ],
+15 silly audit   '@babel/helper-module-transforms': [ '7.29.7' ],
+15 silly audit   '@babel/helper-plugin-utils': [ '7.29.7' ],
+15 silly audit   '@babel/helper-string-parser': [ '7.29.7' ],
+15 silly audit   '@babel/helper-validator-identifier': [ '7.29.7' ],
+15 silly audit   '@babel/helper-validator-option': [ '7.29.7' ],
+15 silly audit   '@babel/helpers': [ '7.29.7' ],
+15 silly audit   '@babel/parser': [ '7.29.8' ],
+15 silly audit   '@babel/plugin-transform-react-jsx-self': [ '7.29.7' ],
+15 silly audit   '@babel/plugin-transform-react-jsx-source': [ '7.29.7' ],
+15 silly audit   '@babel/template': [ '7.29.7' ],
+15 silly audit   '@babel/traverse': [ '7.29.8' ],
+15 silly audit   '@babel/types': [ '7.29.8' ],
+15 silly audit   '@esbuild/aix-ppc64': [ '0.21.5' ],
+15 silly audit   '@esbuild/android-arm': [ '0.21.5' ],
+15 silly audit   '@esbuild/android-arm64': [ '0.21.5' ],
+15 silly audit   '@esbuild/android-x64': [ '0.21.5' ],
+15 silly audit   '@esbuild/darwin-arm64': [ '0.21.5' ],
+15 silly audit   '@esbuild/darwin-x64': [ '0.21.5' ],
+15 silly audit   '@esbuild/freebsd-arm64': [ '0.21.5' ],
+15 silly audit   '@esbuild/freebsd-x64': [ '0.21.5' ],
+15 silly audit   '@esbuild/linux-arm': [ '0.21.5' ],
+15 silly audit   '@esbuild/linux-arm64': [ '0.21.5' ],
+15 silly audit   '@esbuild/linux-ia32': [ '0.21.5' ],
+15 silly audit   '@esbuild/linux-loong64': [ '0.21.5' ],
+15 silly audit   '@esbuild/linux-mips64el': [ '0.21.5' ],
+15 silly audit   '@esbuild/linux-ppc64': [ '0.21.5' ],
+15 silly audit   '@esbuild/linux-riscv64': [ '0.21.5' ],
+15 silly audit   '@esbuild/linux-s390x': [ '0.21.5' ],
+15 silly audit   '@esbuild/linux-x64': [ '0.21.5' ],
+15 silly audit   '@esbuild/netbsd-x64': [ '0.21.5' ],
+15 silly audit   '@esbuild/openbsd-x64': [ '0.21.5' ],
+15 silly audit   '@esbuild/sunos-x64': [ '0.21.5' ],
+15 silly audit   '@esbuild/win32-arm64': [ '0.21.5' ],
+15 silly audit   '@esbuild/win32-ia32': [ '0.21.5' ],
+15 silly audit   '@esbuild/win32-x64': [ '0.21.5' ],
+15 silly audit   '@jridgewell/gen-mapping': [ '0.3.13' ],
+15 silly audit   '@jridgewell/remapping': [ '2.3.5' ],
+15 silly audit   '@jridgewell/resolve-uri': [ '3.1.2' ],
+15 silly audit   '@jridgewell/sourcemap-codec': [ '1.6.0' ],
+15 silly audit   '@jridgewell/trace-mapping': [ '0.3.31' ],
+15 silly audit   '@napi-rs/lzma-linux-x64-gnu': [ '1.5.1' ],
+15 silly audit   '@remix-run/router': [ '1.23.4' ],
+15 silly audit   '@rolldown/pluginutils': [ '1.0.0-beta.27' ],
+15 silly audit   '@rollup/rollup-android-arm-eabi': [ '4.63.2' ],
+15 silly audit   '@rollup/rollup-android-arm64': [ '4.63.2' ],
+15 silly audit   '@rollup/rollup-darwin-arm64': [ '4.63.2' ],
+15 silly audit   '@rollup/rollup-darwin-x64': [ '4.63.2' ],
+15 silly audit   '@rollup/rollup-freebsd-arm64': [ '4.63.2' ],
+15 silly audit   '@rollup/rollup-freebsd-x64': [ '4.63.2' ],
+15 silly audit   '@rollup/rollup-linux-arm-gnueabihf': [ '4.63.2' ],
+15 silly audit   '@rollup/rollup-linux-arm-musleabihf': [ '4.63.2' ],
+15 silly audit   '@rollup/rollup-linux-arm64-gnu': [ '4.63.2' ],
+15 silly audit   '@rollup/rollup-linux-arm64-musl': [ '4.63.2' ],
+15 silly audit   '@rollup/rollup-linux-loong64-gnu': [ '4.63.2' ],
+15 silly audit   '@rollup/rollup-linux-loong64-musl': [ '4.63.2' ],
+15 silly audit   '@rollup/rollup-linux-ppc64-gnu': [ '4.63.2' ],
+15 silly audit   '@rollup/rollup-linux-ppc64-musl': [ '4.63.2' ],
+15 silly audit   '@rollup/rollup-linux-riscv64-gnu': [ '4.63.2' ],
+15 silly audit   '@rollup/rollup-linux-riscv64-musl': [ '4.63.2' ],
+15 silly audit   '@rollup/rollup-linux-s390x-gnu': [ '4.63.2' ],
+15 silly audit   '@rollup/rollup-linux-x64-gnu': [ '4.63.2' ],
+15 silly audit   '@rollup/rollup-linux-x64-musl': [ '4.63.2' ],
+15 silly audit   '@rollup/rollup-openbsd-x64': [ '4.63.2' ],
+15 silly audit   '@rollup/rollup-openharmony-arm64': [ '4.63.2' ],
+15 silly audit   '@rollup/rollup-win32-arm64-msvc': [ '4.63.2' ],
+15 silly audit   '@rollup/rollup-win32-ia32-msvc': [ '4.63.2' ],
+15 silly audit   '@rollup/rollup-win32-x64-gnu': [ '4.63.2' ],
+15 silly audit   '@rollup/rollup-win32-x64-msvc': [ '4.63.2' ],
+15 silly audit   '@types/babel__core': [ '7.20.5' ],
+15 silly audit   '@types/babel__generator': [ '7.27.0' ],
+15 silly audit   '@types/babel__template': [ '7.4.4' ],
+15 silly audit   '@types/babel__traverse': [ '7.28.0' ],
+15 silly audit   '@types/estree': [ '1.0.9' ],
+15 silly audit   '@vitejs/plugin-react': [ '4.7.0' ],
+15 silly audit   'baseline-browser-mapping': [ '2.11.23' ],
+15 silly audit   browserslist: [ '4.28.9' ],
+15 silly audit   'caniuse-lite': [ '1.0.30001810' ],
+15 silly audit   'convert-source-map': [ '2.0.0' ],
+15 silly audit   debug: [ '4.4.3' ],
+15 silly audit   'electron-to-chromium': [ '1.5.427' ],
+15 silly audit   esbuild: [ '0.21.5' ],
+15 silly audit   escalade: [ '3.2.0' ],
+15 silly audit   fsevents: [ '2.3.3' ],
+15 silly audit   gensync: [ '1.0.0-beta.2' ],
+15 silly audit   'js-tokens': [ '4.0.0' ],
+15 silly audit   jsesc: [ '3.1.0' ],
+15 silly audit   json5: [ '2.2.3' ],
+15 silly audit   'loose-envify': [ '1.4.0' ],
+15 silly audit   'lru-cache': [ '5.1.1' ],
+15 silly audit   'lucide-react': [ '0.468.0' ],
+15 silly audit   ms: [ '2.1.3' ],
+15 silly audit   nanoid: [ '3.3.19' ],
+15 silly audit   'node-releases': [ '2.0.55' ],
+15 silly audit   picocolors: [ '1.1.1' ],
+15 silly audit   postcss: [ '8.5.28' ],
+15 silly audit   react: [ '18.3.1' ],
+15 silly audit   'react-dom': [ '18.3.1' ],
+15 silly audit   'react-refresh': [ '0.17.0' ],
+15 silly audit   'react-router': [ '6.30.6' ],
+15 silly audit   'react-router-dom': [ '6.30.6' ],
+15 silly audit   rollup: [ '4.63.2' ],
+15 silly audit   scheduler: [ '0.23.2' ],
+15 silly audit   semver: [ '6.3.1' ],
+15 silly audit   'source-map-js': [ '1.2.1' ],
+15 silly audit   'update-browserslist-db': [ '1.3.3' ],
+15 silly audit   vite: [ '5.4.21' ],
+15 silly audit   yallist: [ '3.1.1' ]
+15 silly audit }
+16 verbose reify failed optional dependency D:\DiabeticRetinopathy\frontend\node_modules\fsevents
+17 silly reify mark deleted [ 'D:\\DiabeticRetinopathy\\frontend\\node_modules\\fsevents' ]
+18 verbose reify failed optional dependency D:\DiabeticRetinopathy\frontend\node_modules\@rollup\rollup-win32-ia32-msvc
+19 silly reify mark deleted [
+19 silly reify   'D:\\DiabeticRetinopathy\\frontend\\node_modules\\@rollup\\rollup-win32-ia32-msvc'
+19 silly reify ]
+20 verbose reify failed optional dependency D:\DiabeticRetinopathy\frontend\node_modules\@rollup\rollup-win32-arm64-msvc
+21 silly reify mark deleted [
+21 silly reify   'D:\\DiabeticRetinopathy\\frontend\\node_modules\\@rollup\\rollup-win32-arm64-msvc'
+21 silly reify ]
+22 verbose reify failed optional dependency D:\DiabeticRetinopathy\frontend\node_modules\@rollup\rollup-openharmony-arm64
+23 silly reify mark deleted [
+23 silly reify   'D:\\DiabeticRetinopathy\\frontend\\node_modules\\@rollup\\rollup-openharmony-arm64'
+23 silly reify ]
+24 verbose reify failed optional dependency D:\DiabeticRetinopathy\frontend\node_modules\@rollup\rollup-openbsd-x64
+25 silly reify mark deleted [
+25 silly reify   'D:\\DiabeticRetinopathy\\frontend\\node_modules\\@rollup\\rollup-openbsd-x64'
+25 silly reify ]
+26 verbose reify failed optional dependency D:\DiabeticRetinopathy\frontend\node_modules\@rollup\rollup-linux-x64-musl
+27 silly reify mark deleted [
+27 silly reify   'D:\\DiabeticRetinopathy\\frontend\\node_modules\\@rollup\\rollup-linux-x64-musl'
+27 silly reify ]
+28 verbose reify failed optional dependency D:\DiabeticRetinopathy\frontend\node_modules\@rollup\rollup-linux-x64-gnu
+29 silly reify mark deleted [
+29 silly reify   'D:\\DiabeticRetinopathy\\frontend\\node_modules\\@rollup\\rollup-linux-x64-gnu'
+29 silly reify ]
+30 verbose reify failed optional dependency D:\DiabeticRetinopathy\frontend\node_modules\@rollup\rollup-linux-s390x-gnu
+31 silly reify mark deleted [
+31 silly reify   'D:\\DiabeticRetinopathy\\frontend\\node_modules\\@rollup\\rollup-linux-s390x-gnu'
+31 silly reify ]
+32 verbose reify failed optional dependency D:\DiabeticRetinopathy\frontend\node_modules\@rollup\rollup-linux-riscv64-musl
+33 silly reify mark deleted [
+33 silly reify   'D:\\DiabeticRetinopathy\\frontend\\node_modules\\@rollup\\rollup-linux-riscv64-musl'
+33 silly reify ]
+34 verbose reify failed optional dependency D:\DiabeticRetinopathy\frontend\node_modules\@rollup\rollup-linux-riscv64-gnu
+35 silly reify mark deleted [
+35 silly reify   'D:\\DiabeticRetinopathy\\frontend\\node_modules\\@rollup\\rollup-linux-riscv64-gnu'
+35 silly reify ]
+36 verbose reify failed optional dependency D:\DiabeticRetinopathy\frontend\node_modules\@rollup\rollup-linux-ppc64-musl
+37 silly reify mark deleted [
+37 silly reify   'D:\\DiabeticRetinopathy\\frontend\\node_modules\\@rollup\\rollup-linux-ppc64-musl'
+37 silly reify ]
+38 verbose reify failed optional dependency D:\DiabeticRetinopathy\frontend\node_modules\@rollup\rollup-linux-ppc64-gnu
+39 silly reify mark deleted [
+39 silly reify   'D:\\DiabeticRetinopathy\\frontend\\node_modules\\@rollup\\rollup-linux-ppc64-gnu'
+39 silly reify ]
+40 verbose reify failed optional dependency D:\DiabeticRetinopathy\frontend\node_modules\@rollup\rollup-linux-loong64-musl
+41 silly reify mark deleted [
+41 silly reify   'D:\\DiabeticRetinopathy\\frontend\\node_modules\\@rollup\\rollup-linux-loong64-musl'
+41 silly reify ]
+42 verbose reify failed optional dependency D:\DiabeticRetinopathy\frontend\node_modules\@rollup\rollup-linux-loong64-gnu
+43 silly reify mark deleted [
+43 silly reify   'D:\\DiabeticRetinopathy\\frontend\\node_modules\\@rollup\\rollup-linux-loong64-gnu'
+43 silly reify ]
+44 verbose reify failed optional dependency D:\DiabeticRetinopathy\frontend\node_modules\@rollup\rollup-linux-arm64-musl
+45 silly reify mark deleted [
+45 silly reify   'D:\\DiabeticRetinopathy\\frontend\\node_modules\\@rollup\\rollup-linux-arm64-musl'
+45 silly reify ]
+46 verbose reify failed optional dependency D:\DiabeticRetinopathy\frontend\node_modules\@rollup\rollup-linux-arm64-gnu
+47 silly reify mark deleted [
+47 silly reify   'D:\\DiabeticRetinopathy\\frontend\\node_modules\\@rollup\\rollup-linux-arm64-gnu'
+47 silly reify ]
+48 verbose reify failed optional dependency D:\DiabeticRetinopathy\frontend\node_modules\@rollup\rollup-linux-arm-musleabihf
+49 silly reify mark deleted [
+49 silly reify   'D:\\DiabeticRetinopathy\\frontend\\node_modules\\@rollup\\rollup-linux-arm-musleabihf'
+49 silly reify ]
+50 verbose reify failed optional dependency D:\DiabeticRetinopathy\frontend\node_modules\@rollup\rollup-linux-arm-gnueabihf
+51 silly reify mark deleted [
+51 silly reify   'D:\\DiabeticRetinopathy\\frontend\\node_modules\\@rollup\\rollup-linux-arm-gnueabihf'
+51 silly reify ]
+52 verbose reify failed optional dependency D:\DiabeticRetinopathy\frontend\node_modules\@rollup\rollup-freebsd-x64
+53 silly reify mark deleted [
+53 silly reify   'D:\\DiabeticRetinopathy\\frontend\\node_modules\\@rollup\\rollup-freebsd-x64'
+53 silly reify ]
+54 verbose reify failed optional dependency D:\DiabeticRetinopathy\frontend\node_modules\@rollup\rollup-freebsd-arm64
+55 silly reify mark deleted [
+55 silly reify   'D:\\DiabeticRetinopathy\\frontend\\node_modules\\@rollup\\rollup-freebsd-arm64'
+55 silly reify ]
+56 verbose reify failed optional dependency D:\DiabeticRetinopathy\frontend\node_modules\@rollup\rollup-darwin-x64
+57 silly reify mark deleted [
+57 silly reify   'D:\\DiabeticRetinopathy\\frontend\\node_modules\\@rollup\\rollup-darwin-x64'
+57 silly reify ]
+58 verbose reify failed optional dependency D:\DiabeticRetinopathy\frontend\node_modules\@rollup\rollup-darwin-arm64
+59 silly reify mark deleted [
+59 silly reify   'D:\\DiabeticRetinopathy\\frontend\\node_modules\\@rollup\\rollup-darwin-arm64'
+59 silly reify ]
+60 verbose reify failed optional dependency D:\DiabeticRetinopathy\frontend\node_modules\@rollup\rollup-android-arm64
+61 silly reify mark deleted [
+61 silly reify   'D:\\DiabeticRetinopathy\\frontend\\node_modules\\@rollup\\rollup-android-arm64'
+61 silly reify ]
+62 verbose reify failed optional dependency D:\DiabeticRetinopathy\frontend\node_modules\@rollup\rollup-android-arm-eabi
+63 silly reify mark deleted [
+63 silly reify   'D:\\DiabeticRetinopathy\\frontend\\node_modules\\@rollup\\rollup-android-arm-eabi'
+63 silly reify ]
+64 verbose reify failed optional dependency D:\DiabeticRetinopathy\frontend\node_modules\@napi-rs\lzma-linux-x64-gnu
+65 silly reify mark deleted [
+65 silly reify   'D:\\DiabeticRetinopathy\\frontend\\node_modules\\@napi-rs\\lzma-linux-x64-gnu'
+65 silly reify ]
+66 verbose reify failed optional dependency D:\DiabeticRetinopathy\frontend\node_modules\@esbuild\win32-ia32
+67 silly reify mark deleted [
+67 silly reify   'D:\\DiabeticRetinopathy\\frontend\\node_modules\\@esbuild\\win32-ia32'
+67 silly reify ]
+68 verbose reify failed optional dependency D:\DiabeticRetinopathy\frontend\node_modules\@esbuild\win32-arm64
+69 silly reify mark deleted [
+69 silly reify   'D:\\DiabeticRetinopathy\\frontend\\node_modules\\@esbuild\\win32-arm64'
+69 silly reify ]
+70 verbose reify failed optional dependency D:\DiabeticRetinopathy\frontend\node_modules\@esbuild\sunos-x64
+71 silly reify mark deleted [
+71 silly reify   'D:\\DiabeticRetinopathy\\frontend\\node_modules\\@esbuild\\sunos-x64'
+71 silly reify ]
+72 verbose reify failed optional dependency D:\DiabeticRetinopathy\frontend\node_modules\@esbuild\openbsd-x64
+73 silly reify mark deleted [
+73 silly reify   'D:\\DiabeticRetinopathy\\frontend\\node_modules\\@esbuild\\openbsd-x64'
+73 silly reify ]
+74 verbose reify failed optional dependency D:\DiabeticRetinopathy\frontend\node_modules\@esbuild\netbsd-x64
+75 silly reify mark deleted [
+75 silly reify   'D:\\DiabeticRetinopathy\\frontend\\node_modules\\@esbuild\\netbsd-x64'
+75 silly reify ]
+76 verbose reify failed optional dependency D:\DiabeticRetinopathy\frontend\node_modules\@esbuild\linux-x64
+77 silly reify mark deleted [
+77 silly reify   'D:\\DiabeticRetinopathy\\frontend\\node_modules\\@esbuild\\linux-x64'
+77 silly reify ]
+78 verbose reify failed optional dependency D:\DiabeticRetinopathy\frontend\node_modules\@esbuild\linux-s390x
+79 silly reify mark deleted [
+79 silly reify   'D:\\DiabeticRetinopathy\\frontend\\node_modules\\@esbuild\\linux-s390x'
+79 silly reify ]
+80 verbose reify failed optional dependency D:\DiabeticRetinopathy\frontend\node_modules\@esbuild\linux-riscv64
+81 silly reify mark deleted [
+81 silly reify   'D:\\DiabeticRetinopathy\\frontend\\node_modules\\@esbuild\\linux-riscv64'
+81 silly reify ]
+82 verbose reify failed optional dependency D:\DiabeticRetinopathy\frontend\node_modules\@esbuild\linux-ppc64
+83 silly reify mark deleted [
+83 silly reify   'D:\\DiabeticRetinopathy\\frontend\\node_modules\\@esbuild\\linux-ppc64'
+83 silly reify ]
+84 verbose reify failed optional dependency D:\DiabeticRetinopathy\frontend\node_modules\@esbuild\linux-mips64el
+85 silly reify mark deleted [
+85 silly reify   'D:\\DiabeticRetinopathy\\frontend\\node_modules\\@esbuild\\linux-mips64el'
+85 silly reify ]
+86 verbose reify failed optional dependency D:\DiabeticRetinopathy\frontend\node_modules\@esbuild\linux-loong64
+87 silly reify mark deleted [
+87 silly reify   'D:\\DiabeticRetinopathy\\frontend\\node_modules\\@esbuild\\linux-loong64'
+87 silly reify ]
+88 verbose reify failed optional dependency D:\DiabeticRetinopathy\frontend\node_modules\@esbuild\linux-ia32
+89 silly reify mark deleted [
+89 silly reify   'D:\\DiabeticRetinopathy\\frontend\\node_modules\\@esbuild\\linux-ia32'
+89 silly reify ]
+90 verbose reify failed optional dependency D:\DiabeticRetinopathy\frontend\node_modules\@esbuild\linux-arm64
+91 silly reify mark deleted [
+91 silly reify   'D:\\DiabeticRetinopathy\\frontend\\node_modules\\@esbuild\\linux-arm64'
+91 silly reify ]
+92 verbose reify failed optional dependency D:\DiabeticRetinopathy\frontend\node_modules\@esbuild\linux-arm
+93 silly reify mark deleted [
+93 silly reify   'D:\\DiabeticRetinopathy\\frontend\\node_modules\\@esbuild\\linux-arm'
+93 silly reify ]
+94 verbose reify failed optional dependency D:\DiabeticRetinopathy\frontend\node_modules\@esbuild\freebsd-x64
+95 silly reify mark deleted [
+95 silly reify   'D:\\DiabeticRetinopathy\\frontend\\node_modules\\@esbuild\\freebsd-x64'
+95 silly reify ]
+96 verbose reify failed optional dependency D:\DiabeticRetinopathy\frontend\node_modules\@esbuild\freebsd-arm64
+97 silly reify mark deleted [
+97 silly reify   'D:\\DiabeticRetinopathy\\frontend\\node_modules\\@esbuild\\freebsd-arm64'
+97 silly reify ]
+98 verbose reify failed optional dependency D:\DiabeticRetinopathy\frontend\node_modules\@esbuild\darwin-x64
+99 silly reify mark deleted [
+99 silly reify   'D:\\DiabeticRetinopathy\\frontend\\node_modules\\@esbuild\\darwin-x64'
+99 silly reify ]
+100 verbose reify failed optional dependency D:\DiabeticRetinopathy\frontend\node_modules\@esbuild\darwin-arm64
+101 silly reify mark deleted [
+101 silly reify   'D:\\DiabeticRetinopathy\\frontend\\node_modules\\@esbuild\\darwin-arm64'
+101 silly reify ]
+102 verbose reify failed optional dependency D:\DiabeticRetinopathy\frontend\node_modules\@esbuild\android-x64
+103 silly reify mark deleted [
+103 silly reify   'D:\\DiabeticRetinopathy\\frontend\\node_modules\\@esbuild\\android-x64'
+103 silly reify ]
+104 verbose reify failed optional dependency D:\DiabeticRetinopathy\frontend\node_modules\@esbuild\android-arm64
+105 silly reify mark deleted [
+105 silly reify   'D:\\DiabeticRetinopathy\\frontend\\node_modules\\@esbuild\\android-arm64'
+105 silly reify ]
+106 verbose reify failed optional dependency D:\DiabeticRetinopathy\frontend\node_modules\@esbuild\android-arm
+107 silly reify mark deleted [
+107 silly reify   'D:\\DiabeticRetinopathy\\frontend\\node_modules\\@esbuild\\android-arm'
+107 silly reify ]
+108 verbose reify failed optional dependency D:\DiabeticRetinopathy\frontend\node_modules\@esbuild\aix-ppc64
+109 silly reify mark deleted [
+109 silly reify   'D:\\DiabeticRetinopathy\\frontend\\node_modules\\@esbuild\\aix-ppc64'
+109 silly reify ]
+110 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 723ms
+111 silly audit report {
+111 silly audit report   esbuild: [
+111 silly audit report     {
+111 silly audit report       id: 1102341,
+111 silly audit report       url: 'https://github.com/advisories/GHSA-67mh-4wv8-2f99',
+111 silly audit report       title: 'esbuild enables any website to send any requests to the development server and read the response',
+111 silly audit report       severity: 'moderate',
+111 silly audit report       vulnerable_versions: '<=0.24.2',
+111 silly audit report       cwe: [Array],
+111 silly audit report       cvss: [Object]
+111 silly audit report     }
+111 silly audit report   ],
+111 silly audit report   'react-router': [
+111 silly audit report     {
+111 silly audit report       id: 1124268,
+111 silly audit report       url: 'https://github.com/advisories/GHSA-wrjc-x8rr-h8h6',
+111 silly audit report       title: 'React Router: Open redirect via backslash in <Link> and useNavigate (CVE-2025-68470 bypass)',
+111 silly audit report       severity: 'moderate',
+111 silly audit report       vulnerable_versions: '>=6.0.0 <7.18.0',
+111 silly audit report       cwe: [Array],
+111 silly audit report       cvss: [Object]
+111 silly audit report     },
+111 silly audit report     {
+111 silly audit report       id: 1124272,
+111 silly audit report       url: 'https://github.com/advisories/GHSA-337j-9hxr-rhxg',
+111 silly audit report       title: 'React Router: Arbitrary Constructor Injection via deserializeErrors() in React Router SSR Hydration',
+111 silly audit report       severity: 'moderate',
+111 silly audit report       vulnerable_versions: '>=6.4.0 <7.18.0',
+111 silly audit report       cwe: [Array],
+111 silly audit report       cvss: [Object]
+111 silly audit report     }
+111 silly audit report   ],
+111 silly audit report   vite: [
+111 silly audit report     {
+111 silly audit report       id: 1120784,
+111 silly audit report       url: 'https://github.com/advisories/GHSA-v6wh-96g9-6wx3',
+111 silly audit report       title: 'launch-editor: NTLMv2 hash disclosure via UNC path handling on Windows',
+111 silly audit report       severity: 'moderate',
+111 silly audit report       vulnerable_versions: '<=6.4.2',
+111 silly audit report       cwe: [Array],
+111 silly audit report       cvss: [Object]
+111 silly audit report     },
+111 silly audit report     {
+111 silly audit report       id: 1116229,
+111 silly audit report       url: 'https://github.com/advisories/GHSA-4w7w-66w2-5vf9',
+111 silly audit report       title: 'Vite Vulnerable to Path Traversal in Optimized Deps `.map` Handling',
+111 silly audit report       severity: 'moderate',
+111 silly audit report       vulnerable_versions: '<=6.4.1',
+111 silly audit report       cwe: [Array],
+111 silly audit report       cvss: [Object]
+111 silly audit report     },
+111 silly audit report     {
+111 silly audit report       id: 1123525,
+111 silly audit report       url: 'https://github.com/advisories/GHSA-fx2h-pf6j-xcff',
+111 silly audit report       title: 'vite: `server.fs.deny` bypass on Windows alternate paths',
+111 silly audit report       severity: 'high',
+111 silly audit report       vulnerable_versions: '<=6.4.2',
+111 silly audit report       cwe: [Array],
+111 silly audit report       cvss: [Object]
+111 silly audit report     }
+111 silly audit report   ]
+111 silly audit report }
+112 silly packumentCache corgi:https://registry.npmjs.org/esbuild cache-miss
+113 silly packumentCache corgi:https://registry.npmjs.org/react-router cache-miss
+114 silly packumentCache corgi:https://registry.npmjs.org/vite cache-miss
+115 http fetch GET 200 https://registry.npmjs.org/esbuild 45ms (cache hit)
+116 silly packumentCache corgi:https://registry.npmjs.org/esbuild set size:889133 disposed:false
+117 http fetch GET 200 https://registry.npmjs.org/react-router 64ms (cache hit)
+118 silly packumentCache corgi:https://registry.npmjs.org/react-router set size:1360070 disposed:false
+119 http fetch GET 200 https://registry.npmjs.org/vite 122ms (cache hit)
+120 silly packumentCache corgi:https://registry.npmjs.org/vite set size:2307868 disposed:false
+121 silly packumentCache corgi:https://registry.npmjs.org/react-router-dom cache-miss
+122 http fetch GET 200 https://registry.npmjs.org/react-router-dom 18ms (cache hit)
+123 silly packumentCache corgi:https://registry.npmjs.org/react-router-dom set size:1065956 disposed:false
+124 silly packumentCache corgi:https://registry.npmjs.org/@vitejs%2fplugin-react cache-miss
+125 http fetch GET 200 https://registry.npmjs.org/@vitejs%2fplugin-react 14ms (cache hit)
+126 silly packumentCache corgi:https://registry.npmjs.org/@vitejs%2fplugin-react set size:120851 disposed:false
+127 silly ADD
+128 silly ADD
+129 silly ADD
+130 silly ADD
+131 silly ADD
+132 silly ADD
+133 silly ADD
+134 silly ADD
+135 silly ADD
+136 silly ADD
+137 silly ADD
+138 silly ADD
+139 silly ADD
+140 silly ADD
+141 silly ADD
+142 silly ADD
+143 silly ADD
+144 silly ADD
+145 silly ADD
+146 silly ADD
+147 silly ADD
+148 silly ADD
+149 silly ADD
+150 silly ADD
+151 silly ADD
+152 silly ADD
+153 silly ADD
+154 silly ADD
+155 silly ADD
+156 silly ADD
+157 silly ADD
+158 silly ADD
+159 silly ADD
+160 silly ADD
+161 silly ADD
+162 silly ADD
+163 silly ADD
+164 silly ADD
+165 silly ADD
+166 silly ADD
+167 silly ADD
+168 silly ADD
+169 silly ADD
+170 silly ADD
+171 silly ADD
+172 silly ADD
+173 silly ADD
+174 verbose cwd D:\DiabeticRetinopathy\frontend
+175 verbose os Windows_NT 10.0.26200
+176 verbose node v20.16.0
+177 verbose npm  v10.8.1
+178 verbose exit 0
+179 info ok
